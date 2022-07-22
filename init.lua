@@ -28,15 +28,14 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 
+-- Colorscheme
+vim.g.material_style = "deep ocean"
+vim.opt.termguicolors = true
 
 vim.cmd([[
   set noswapfile
   colorscheme material
 ]])
-
--- Colorscheme
-vim.opt.termguicolors = true
-vim.g.material_style = "palenight"
 
 -- Spelling
 --vim.opt.spelllang = "en"
