@@ -41,3 +41,6 @@ vim.opt.ruler = true
 vim.opt.showmode = true
 vim.opt.autowrite = true
 
+-- KeyMaps --
+vim.keymap.set('n', '<F4>', ':make<CR>')
+vim.keymap.set('n', '<F5>', ':make run<CR>')
