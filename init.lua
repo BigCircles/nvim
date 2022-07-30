@@ -42,5 +42,7 @@ vim.opt.showmode = true
 vim.opt.autowrite = true
 
 -- KeyMaps --
+--vim.keymap.set('n', 'K', vim.lsp.buf.definition)
+vim.keymap.set('n', 'gd', vim.lsp.buf.hover)
 vim.keymap.set('n', '<F4>', ':make<CR>')
 vim.keymap.set('n', '<F5>', ':make run<CR>')
