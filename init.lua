@@ -1,6 +1,7 @@
 -- Remember from init.lua in ~/.config/nvim/init.lua 
 -- is plugin/strem/mypluginfiles
 
+
 require("strem")
 ---- Colorscheme
 vim.g.material_style = "deep ocean"
