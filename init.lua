@@ -9,6 +9,7 @@ vim.opt.termguicolors = true
 vim.cmd([[
   set noswapfile
   colorscheme material
+  tnoremap <ESC> <c-\><c-N> :bd!<CR>
 ]])
 
 -- Spelling
@@ -42,7 +43,8 @@ vim.opt.showmode = true
 vim.opt.autowrite = true
 
 -- KeyMaps --
---vim.keymap.set('n', 'K', vim.lsp.buf.definition)
+vim.keymap.set('n', '<s-o>', ':bd!<CR>')
+vim.keymap.set('n', '<c-k>', vim.lsp.buf.definition)
 vim.keymap.set('n', 'gd', vim.lsp.buf.hover)
 vim.keymap.set('n', '<F4>', ':make<CR>')
-vim.keymap.set('n', '<F5>', ':make run<CR>')
+vim.keymap.set('n', '<F5>', ':term make run<CR>')
