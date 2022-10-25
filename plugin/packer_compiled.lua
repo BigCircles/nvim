@@ -128,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/stremler/.local/share/nvim/site/pack/packer/start/playground",
     url = "https://github.com/nvim-treesitter/playground"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/stremler/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
   }
 }
 

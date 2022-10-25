@@ -3,7 +3,6 @@
 
 
 require("strem")
----- Colorscheme
 vim.g.material_style = "deep ocean"
 vim.opt.termguicolors = true
 
